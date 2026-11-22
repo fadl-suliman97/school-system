@@ -1,14 +1,14 @@
-نظام بسيط لإدارة المدرسه معمول بpython.
-
-## الملفات
-المدير : الواجهة الرئيسية و إدارة الطلاب - "main.py"
-المخزن: قاعدة البيانات و التعامل مع البيانات  -"DATABASES.py"
-ملف قاعدة البيانات = "school.db"
-##المميزات
-- إضافه و عرض الطلاب 
-- إدارة البيانات بإستخدام pandas
--حفظ البيانات في SQLite
-## التشغيل 
-python main.py
-##المطور 
-فضل المولى سليمان
+#school system
+Simple school management system built with python.
+## Files 
+-'main.py' - Manager: Main interface and student management 
+-'DATABASES.py'- Store: Databases and data handing
+-'school.db' - Databases file 
+## Features
+-Add  and view students
+-Manage data with pandas
+Save data in SQLite
+## How to Run
+'bash python main.py'
+## DEVELOPER
+Fadlalmoula Suliman
