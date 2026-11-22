@@ -1,0 +1,10 @@
+import sqlite3
+conn = sqlite3.connect("school.db")
+cursor = conn.cursor()
+cursor.execute("CREATE TABLE IF NOT EXISTS students (id INTEGER PRIMARY KEY, name TEXT, score INTEGER)")
+cursor.execute("INSERT INTO students (name, score) VALUES (?, ?)", ("FADL",95))
+conn.commit()
+cursor.execute("SELECT * FROM students")
+print(cursor.fetchall())
+conn.close()
+print("DONE")
